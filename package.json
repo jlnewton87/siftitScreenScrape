@@ -1,0 +1,11 @@
+{
+  "name" : "siftif-screen-scrape",
+  "version" : "1.0.0",
+  "main" : "app.js",
+  "author" : "Joshua Newton",
+  "dependencies" : {
+    "request" : "latest",
+    "tough-cookie" : "latest",
+    "async" : "latest"
+  }
+}
