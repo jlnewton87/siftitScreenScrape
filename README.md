@@ -1,7 +1,7 @@
 For Windows
 ======
 
-Just run "node app.js".
+Just run `node app.js`.
 - The PhantomJS executable is already in the project directory
 
 **PhantomJS would not properly parse the dates for the orders, so I am piping the output into node to do the console output.**
