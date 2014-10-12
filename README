@@ -1,0 +1,3 @@
+To run, do "node app.js".
+
+PhantomJS would not properly parse the dates for the orders, so I am piping the output into node to do the console output.
