@@ -4,9 +4,5 @@
   "main" : "app.js",
   "author" : "Joshua Newton",
   "dependencies" : {
-    "request" : "latest",
-    "tough-cookie" : "latest",
-    "async" : "latest",
-    "phantom" : "latest"
   }
 }

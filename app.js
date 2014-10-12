@@ -8,6 +8,7 @@ cp.stdout.on('data', function(data){
     var type = orders[i].orderSheetType;
     var date = new Date(orders[i].datePlaced);
     var dateString = months[date.getMonth()] + date.getDate();
-    console.log(type + '|--->Ordered>---|' + dateString);
+    var price = orders[i].totalPrice;
+    console.log(type + '|--->Ordered>---|' + dateString + '|--->Price>---|' + price);
   }
 });
